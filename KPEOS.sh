@@ -22,5 +22,5 @@ sudo pacman -S curl --noconfirm
 yay -S neovim --noconfirm
 # yay -S oh-my-bash-git --noconfirm
 
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
-
+#bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+sudo pacman -S hyprland --noconfirm
