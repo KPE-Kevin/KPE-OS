@@ -1,3 +1,5 @@
+# Script de instalación de Arch limpio
+echo 'Change of Language'
 loadkeys es
 systemctl enable dhcpcd
 systemctl start dhcpcd
