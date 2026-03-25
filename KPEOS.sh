@@ -2,8 +2,8 @@
 
 # echo "System Actualization"
 
-# sudo pacman -Sy --noconfirm
-# sudo pacman -Syu --noconfirm
+sudo pacman -Sy --noconfirm
+sudo pacman -Syu --noconfirm
 
 # Create backup 
 
@@ -57,8 +57,8 @@
 
 #Change configurations of enviroment
 
-cp -r ./config/fastfetch/. ~/.config/fastfetch/
-sudo cp -r ./config/waybar/. /etc/xdg/waybar/ 
+# cp -r ./config/fastfetch/. ~/.config/fastfetch/
+# sudo cp -r ./config/waybar/. /etc/xdg/waybar/ 
 
 # pkill waybar || waybar
 
