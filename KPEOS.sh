@@ -4,29 +4,47 @@
 
 sudo pacman -Sy --noconfirm
 sudo pacman -Syu --noconfirm
+sudo pacman -Syuu --noconfirm
+sudo pacman -Syyu --noconfirm
 
 # Create backup 
 
-# mkdir backup
+echo $"\nCrete files of backup \n"
+
+mkdir backup
 # mkdir backup/fastfetch
 # mkdir backup/hyprland
 # mkdir backup/waybar
 # mkdir backup/kitty
+
+
 # Create Files
 
-# mkdir ~/Documents
-# mkdir ~/Downloads
-# mkdir ~/Images
-# mkdir ~/Proyects
+echo -e "\nCreate Files of default system\n"
+
+mkdir ~/Documents
+mkdir ~/Downloads
+mkdir ~/Images
+mkadir ~/Videos
+mkdir ~/Cloud
+mkdir ~/Proyects
 
 # Instalations of programs
 
-# sudo pacman -S --needed git base-devel --noconfirm
-# git clone https://aur.archlinux.org/yay.git
-# cd yay
-# makepkg -si --noconfirm
-# sudo pacman -S curl --noconfirm
-# yay -S neovim --noconfirm
+printf "\nInstall basic software\n\n"
+
+sudo pacman -S --needed git base-devel --noconfirm
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si --noconfirm
+sudo pacman -S curl --noconfirm
+yay -S neovim --noconfirm
+yay -S  btop --noconfirm
+yay -S yazi-git --noconfirma
+yay -S ranger-git --noconfirma
+
+
+
 # yay -S hyprland --noconfirm
 # yay -S fastfetch --noconfirm
 # yay -S brave-bin --noconfirm
