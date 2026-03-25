@@ -1,6 +1,6 @@
 # Script de instalación de Arch limpio
 echo 'Change of Language'
-loadkeys es
+loadkeys en
 systemctl enable dhcpcd
 systemctl start dhcpcd
 cat /sys/firmware/efi/fw_platform_size
