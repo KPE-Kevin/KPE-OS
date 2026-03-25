@@ -9,7 +9,7 @@ sudo pacman -Syyu --noconfirm
 
 # Create backup 
 
-echo $"\nCrete files of backup \n"
+echo $'\nCrete files of backup \n'
 
 mkdir backup
 # mkdir backup/fastfetch
@@ -20,7 +20,7 @@ mkdir backup
 
 # Create Files
 
-echo -e "\nCreate Files of default system\n"
+echo $'\nCreate Files of default system\n'
 
 mkdir ~/Documents
 mkdir ~/Downloads
@@ -31,7 +31,7 @@ mkdir ~/Proyects
 
 # Instalations of programs
 
-printf "\nInstall basic software\n\n"
+echo $'\nInstall basic software\n'
 
 sudo pacman -S --needed git base-devel --noconfirm
 git clone https://aur.archlinux.org/yay.git
@@ -39,22 +39,30 @@ cd yay
 makepkg -si --noconfirm
 sudo pacman -S curl --noconfirm
 yay -S neovim --noconfirm
-yay -S  btop --noconfirm
-yay -S yazi-git --noconfirma
-yay -S ranger-git --noconfirma
+yay -S btop --noconfirm
+yay -S yazi --noconfirma
+yay -S fastfetch --noconfirm
+
+# Pruebas no confirmadas
+
 
 
 
 # yay -S hyprland --noconfirm
-# yay -S fastfetch --noconfirm
-# yay -S brave-bin --noconfirm
 # yay -S kitty --noconfirm
 # yay -S nautilus --noconfirm
 # yay -S visual-studio-code-bin --noconfirm
 # yay -S waybar --noconfirm
-# yay -S google-chrome --noconfirm
 # yay -S hyprlauncher --noconfirm
+
+
+
+# yay -S brave-bin --noconfirm
+# yay -S google-chrome --noconfirm
 # yay -S nerd-fonts-git --noconfirm
+
+
+
 
 # Prueba de audio
 # yay -S pipewire-audio --noconfirm
