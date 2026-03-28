@@ -7,7 +7,7 @@ sudo pacman -Syu --noconfirm
 sudo pacman -Syuu --noconfirm
 sudo pacman -Syyu --noconfirm
 
-# Create backup 
+# Create Files of backup 
 
 echo $'\nCrete files of backup \n'
 
@@ -59,7 +59,7 @@ yay -S fastfetch --noconfirm
 
 # yay -S brave-bin --noconfirm
 # yay -S google-chrome --noconfirm
-# yay -S nerd-fonts-git --noconfirm
+#### yay -S nerd-fonts-git --noconfirm 
 
 
 
@@ -94,3 +94,4 @@ yay -S fastfetch --noconfirm
 # nvm install 24
 # yay -S figma-linux --noconfirm
 # yay -S obsidian-bin --noconfirm
+

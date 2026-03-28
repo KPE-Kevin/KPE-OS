@@ -11,20 +11,26 @@ sudo pacman -Syyu --noconfirm
 
 #Script for backup
 
-./Scripts/FilesBackup.sh
+# ./Scripts/FilesBackup.sh
 
 #Script for default Files
 
-./Scripts/CreateDefaultFiles.sh
+# ./Scripts/CreateDefaultFiles.sh
 
 #Script for Install Enviroment
 
-./Scripts/EnviromentBasic.sh
+#./Scripts/EnviromentBasic.sh
 
 # Generate files config
 
-./Scripts/GenrateFileconfig.sh
+#./Scripts/GenerateFileconfig.sh
 
 # Script for backup
 
-./Scripts/Backup.sh
+# ./Scripts/Backup.sh
+
+
+
+#Test para pruebas de comandos
+
+#./Scripts/Test.sh
