@@ -21,6 +21,10 @@ sudo pacman -Syyu --noconfirm
 
 ./Scripts/EnviromentBasic.sh
 
+#Script for Install Drivers
+
+./Scripts/Drivers.sh
+
 # Generate files config
 
 ./Scripts/GenrateFileconfig.sh
@@ -28,3 +32,7 @@ sudo pacman -Syyu --noconfirm
 # Script for backup
 
 ./Scripts/Backup.sh
+
+#Config basic of System Enviroment basic
+
+./Scripts/ConfigEnviromentbasic.sh

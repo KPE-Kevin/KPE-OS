@@ -23,3 +23,4 @@ yay -S waybar --noconfirm
 yay -S hyprlauncher --noconfirm
 
 yay -S visual-studio-code-bin --noconfirm
+yay -S brave-bin --noconfirm

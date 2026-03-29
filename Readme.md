@@ -16,3 +16,5 @@ fdisk -l
 
 ### Install of archlinux with archinstall
 ## Install of KPEOS
+
+
