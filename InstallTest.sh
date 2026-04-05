@@ -4,10 +4,10 @@ echo $'\nWelcome to KPE-OS Test\n'
 
 # echo "System Actualization"
 
-#sudo pacman -Sy --noconfirm
-#sudo pacman -Syu --noconfirm
-#sudo pacman -Syuu --noconfirm
-#sudo pacman -Syyu --noconfirm
+sudo pacman -Sy --noconfirm
+sudo pacman -Syu --noconfirm
+sudo pacman -Syuu --noconfirm
+sudo pacman -Syyu --noconfirm
 
 #Script for backup
 
@@ -35,9 +35,9 @@ echo $'\nWelcome to KPE-OS Test\n'
 
 #Config basic of System Enviroment basic
 
-./Scripts/ConfigEnviromentbasic.sh
-
+#./Scripts/ConfigEnviromentbasic.sh
 
 #Test para pruebas de comandos
 
-# ./Scripts/Test.sh
+./Scripts/Test.sh
+
