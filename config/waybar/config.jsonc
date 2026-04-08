@@ -4,30 +4,41 @@
 [   
     //Border superior
     {
-        "layer": "top",
         "height": 10, // 45 for top
-        "width": 1920, //1920 for top
-        "position": "top"
+        "position": "top",
+        "name":"topbar"
     },
     //Border izquierdo
     {
         "layer": "top",
-        "height": 1080, // 45 for top
         "width": 45, //1920 for top
-        "position": "left"
+        "position": "left",
+        "name":"leftbar",
+        "pading":1,
+        "include":[
+            "/home/kevin/KPE-OS/config/waybar/modules/arch.jsonc",
+            "/home/kevin/KPE-OS/config/waybar/modules/backlight.jsonc",
+            "/home/kevin/KPE-OS/config/waybar/modules/menu_power.jsonc"
+        ],
+        "modules-left": [
+            "custom/arch"
+        ],
+        "modules-center": [
+        ],
+        "modules-right": [
+            "custom/power"
+        ]
     },
     //Border derecho
     {
-        "layer": "top",
-        "height": 1080, // 45 for top
         "width": 10, //1920 for top
-        "position": "right"
+        "position": "right",
+        "name":"rightbar"
     },
     //Border abajo
     {
-        "layer": "top",
         "height": 10, // 45 for top
-        "width": 1920, //1920 for top
-        "position": "bottom"
+        "position": "bottom",
+        "name":"bottombar"
     }
 ]

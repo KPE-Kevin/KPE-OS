@@ -1,12 +1,23 @@
 /*
     Archivo de configuración de estilos para waybar
     Colores pricinpales
-        Primary: #1a1a1a
+        Primary: #181818
         Secondary: #00bfaf
         Three: 
+        white: #eeeeee
 */
 
-*{
-    background-color: #1a1a1a;
-    padding: 1px;
+window#waybar {
+    background-color: #181818;
+    font-size: 25px;
+}
+
+#custom-arch {
+    /* background-color: #eeeeee; */
+    color: #00BFAF;
+}
+
+#custom-power {
+    /* background-color: #eeeeee; */
+    color: #eeeeee;
 }

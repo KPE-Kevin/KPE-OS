@@ -1,6 +1,6 @@
 {
     "custom/arch": {
-        "format": "<span size='x-large'></span>",
+        "format": "",
         "interval": 0,
         "on-click":"hyprlauncher",
         "escape": false
