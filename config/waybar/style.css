@@ -1,33 +1,12 @@
+/*
+    Archivo de configuración de estilos para waybar
+    Colores pricinpales
+        Primary: #1a1a1a
+        Secondary: #00bfaf
+        Three: 
+*/
 
-* {
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: JetBrainsMono NF Extrabold;
-    font-size: 16px;
-    margin: 1px;
-}
-
-window#waybar {
-    background-color: rgba(0, 0, 0, 0);
-    margin: 1px 1px 1px 1px;
-    border-radius: 10px;
-    color: #ffffff;    
-    transition-property: background-color;
-    transition-duration: .5s;
-}
-
-#custom-power{
-    font-size: 20px;
-    color: rgb(220, 220, 220);
-    background-color: rgba(25,25,25,0.9);
-    border-radius: 10px;
-    min-width: 40px;
-}
-
-#custom-arch{
-
-    font-size: 20px;
-    color: aqua;
-    background-color: rgba(25,25,25,0.9);
-    border-radius: 10px;
-    min-width: 40px;
+*{
+    background-color: #1a1a1a;
+    padding: 1px;
 }

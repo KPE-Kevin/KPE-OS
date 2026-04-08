@@ -1,0 +1,26 @@
+// -*- mode: jsonc -*-
+// Cambiar ruta export XDG_CONFIG_HOME="/home/kevin/KPE-OS/config"
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 25, // Waybar height (to be removed for auto height)
+    "width": 1820, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    "margin-top": 5, 
+    "margin-bottom": 5,
+    "include":[
+        "/home/kevin/KPE-OS/config/waybar/modules/arch.jsonc",
+        "/home/kevin/KPE-OS/config/waybar/modules/backlight.jsonc",
+        "/home/kevin/KPE-OS/config/waybar/modules/menu_power.jsonc"
+    ],
+    "modules-left": [
+        "custom/arch"
+    ],
+    "modules-center": [
+        "backlight/slider"
+    ],
+    "modules-right": [
+        "backlight",
+        "custom/power"
+    ]
+}

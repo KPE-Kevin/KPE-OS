@@ -1,4 +1,1 @@
-yay -S dbeaver --noconfirm
-yay -S docker --noconfirm
-yay -S docker-compose --noconfirm
-yay -S docker-buildx --noconfirm
+sudo cp -r ./config/waybar/. /etc/xdg/waybar/
