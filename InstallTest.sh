@@ -13,6 +13,11 @@ sudo pacman -Syyu --noconfirm
 
 ./Scripts/toolsterm.sh
 
+yay -Sy --noconfirm
+yay -Syu --noconfirm
+yay -Syyu --noconfirm
+yay -Syuu --noconfirm
+
 #Script for backup
 
 # ./Scripts/FilesBackup.sh
