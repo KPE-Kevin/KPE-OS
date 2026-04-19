@@ -38,7 +38,7 @@ yay -Syuu --noconfirm
 
 #Script for Install Enviroment GUI
 
-# ./Scripts/EnviromentGUI.sh
+./Scripts/EnviromentGUI.sh
 
 #Script for Install Drivers
 
@@ -55,6 +55,11 @@ yay -Syuu --noconfirm
 #Config basic of System Enviroment basic
 
 ./Scripts/ConfigEnviromentCMD.sh
+
+#Config basic of System Enviroment basic
+
+./Scripts/ConfigEnviromentGUI.sh
+
 
 #Test para pruebas de comandos
 
