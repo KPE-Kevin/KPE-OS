@@ -42,19 +42,19 @@ yay -Syuu --noconfirm
 
 #Script for Install Drivers
 
-#./Scripts/Drivers.sh
+./Scripts/Drivers.sh
 
 # Generate files config
 
-#./Scripts/GenerateFileconfig.sh
+./Scripts/GenerateFileconfig.sh
 
 # Script for backup
 
-# ./Scripts/Backup.sh
+./Scripts/Backup.sh
 
 #Config basic of System Enviroment basic
 
-#./Scripts/ConfigEnviromentbasic.sh
+./Scripts/ConfigEnviromentCMD.sh
 
 #Test para pruebas de comandos
 
