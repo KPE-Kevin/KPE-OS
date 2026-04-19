@@ -9,15 +9,17 @@
 
 window#waybar {
     background-color: #181818;
-    font-size: 25px;
+    
 }
 
 #custom-arch {
     /* background-color: #eeeeee; */
     color: #00BFAF;
+    font-size: 30px;
 }
 
 #custom-power {
     /* background-color: #eeeeee; */
     color: #eeeeee;
+    font-size: 20px;
 }

@@ -8,7 +8,6 @@ sudo pacman -Sy --noconfirm
 sudo pacman -Syu --noconfirm
 sudo pacman -Syuu --noconfirm
 sudo pacman -Syyu --noconfirm
-
 #Script for backup
 
 ./Scripts/FilesBackup.sh

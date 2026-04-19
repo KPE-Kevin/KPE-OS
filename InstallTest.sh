@@ -39,5 +39,5 @@ sudo pacman -Syyu --noconfirm
 
 #Test para pruebas de comandos
 
-./Scripts/Test.sh
+# ./Scripts/Test.sh
 
