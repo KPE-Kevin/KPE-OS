@@ -9,6 +9,10 @@ sudo pacman -Syu --noconfirm
 sudo pacman -Syuu --noconfirm
 sudo pacman -Syyu --noconfirm
 
+# Script of yay
+
+./Scripts/toolsterm.sh
+
 #Script for backup
 
 # ./Scripts/FilesBackup.sh
