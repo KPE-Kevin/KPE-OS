@@ -5,36 +5,98 @@
     "source":"~/.config/fastfetch/Arch.png",
     "width": 30          // Width in characters
   },
-
+  "display": {
+        "separator": "  ",
+        "constants": [
+            "─────────────────" // {$1}, used in Custom module
+        ]
+    },
   "modules": [
-    "title",
-    "separator",
-    "os",
-    "host",
-    "kernel",
-    "uptime",
-    "packages",
-    "shell",
-    "display",
-    "de",
-    "wm",
-    "wmtheme",
-    "theme",
-    "icons",
-    "font",
-    "cursor",
-    "terminal",
-    "terminalfont",
-    "cpu",
-    "gpu",
-    "memory",
-    "swap",
-    "disk",
-    "localip",
-    "battery",
-    "poweradapter",
-    "locale",
+    {
+            "type": "custom",
+            "format": "┌{$1} {#1}User@distro{#} {$1}┐"
+    },
+    {
+        "type": "title",
+        "keyWidth": 10
+    },
+    {
+            "type": "custom",
+            "format": "├{$1} {#1}Hardware Information{#} {$1}┤"
+    },
     "break",
-    "colors"
+    {
+        "type": "os",
+        "key": " ",
+        "keyColor": "34"  // = color4
+    },
+    {
+        "type": "kernel",
+        "key": " ",
+        "keyColor": "34"
+    },
+    {
+        "type": "packages",
+        "format": "{} (pacman)",
+        "key": " ",
+        "keyColor": "34"  
+    },
+    {
+        "type": "shell",
+        "key": " ",
+        "keyColor": "34"
+    },
+    {
+        "type": "terminal",
+        "key": " ",
+        "keyColor": "34"
+    },
+    {
+        "type": "wm",
+        "key": " ",
+        "keyColor": "34"
+    },
+    {
+        "type": "display",
+        "key": "󰍹 ",
+        "keyColor": "34"
+    },
+    {
+        "type": "cpu",
+        "format": "{1}",
+        "key": " ",
+        "keyColor": "34"
+    },
+    {
+        "type": "gpu",
+        "format": "{2}",
+        "key": " ",
+        "keyColor": "34"
+    },
+    {
+        "type": "gpu",
+        "format": "{3}",
+        "key": " ",
+        "keyColor": "34"
+    },
+    {
+        "type": "memory",
+        "key": " ",
+        "keyColor": "34"
+    },
+    {
+        "type": "disk",
+        "key": " ",
+        "keyColor": "34"
+    },
+    {
+        "type": "uptime",
+        "key": " ",
+        "keyColor": "34"
+    },
+  {
+          "type": "custom",
+          "format": "└{$1}──────────────────────{$1}┘"
+  }
   ]
 }
