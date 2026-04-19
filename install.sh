@@ -8,8 +8,17 @@ sudo pacman -Sy --noconfirm
 sudo pacman -Syu --noconfirm
 sudo pacman -Syuu --noconfirm
 sudo pacman -Syyu --noconfirm
-#Script for backup
 
+# Script of yay
+
+./Scripts/toolsterm.sh
+
+# update repo of yay
+
+yay -Sy --noconfirm
+yay -Syu --noconfirm
+yay -Syyu --noconfirm
+yay -Syuu --noconfirm
 ./Scripts/FilesBackup.sh
 
 #Script for default Files

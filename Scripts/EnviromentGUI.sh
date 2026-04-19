@@ -1,13 +1,6 @@
 # Programs basic of the Enviroment
 
-echo $'\nInstall basic software\n'
-
-sudo pacman -S curl --noconfirm
-yay -S neovim --noconfirm
-yay -S btop --noconfirm
-yay -S yazi --noconfirm
-yay -S fastfetch --noconfirm
-
+echo $'\nInstall basic software for GUI\n'
 
 yay -S hyprland --noconfirm
 yay -S kitty --noconfirm
