@@ -14,7 +14,7 @@
   "modules": [
     {
             "type": "custom",
-            "format": "┌{$1} {#1}User@distro{#} {$1}┐"
+            "format": "┌{$1} {#1}User & Hostname{#} ─────{$1}┐"
     },
     {
         "type": "title",
@@ -97,6 +97,7 @@
   {
           "type": "custom",
           "format": "└{$1}──────────────────────{$1}┘"
-  }
+  },
+    "break"
   ]
 }

@@ -1,0 +1,8 @@
+[SddmGreeterTheme]
+Name=kpeos
+Description=Tema personalizado
+Author=Kevin
+Version=1.0
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=kpeos

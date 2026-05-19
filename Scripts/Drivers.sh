@@ -14,3 +14,5 @@ yay -S alsa-utils --noconfirm
 
 yay -S xdg-desktop-portal --noconfirm
 yay -S xdg-desktop-portal-hyprland --noconfirm
+yay -S noto-fonts-emoji --noconfirm
+yay -S ttf-joypixels --noconfirm

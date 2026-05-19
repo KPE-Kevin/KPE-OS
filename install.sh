@@ -2,7 +2,7 @@ echo $'\nWelcome to KPE-OS Test\n'
 
 # System actualization
 
-# echo "System Actualization"
+echo "System Actualization"
 
 sudo pacman -Sy --noconfirm
 sudo pacman -Syu --noconfirm
@@ -11,23 +11,34 @@ sudo pacman -Syyu --noconfirm
 
 # Script of yay
 
+echo "Instalation of yay"
+
 ./Scripts/toolsterm.sh
 
 # update repo of yay
+
+echo "yay Actualization"
 
 yay -Sy --noconfirm
 yay -Syu --noconfirm
 yay -Syyu --noconfirm
 yay -Syuu --noconfirm
+
+#Script for backup
+
 ./Scripts/FilesBackup.sh
 
 #Script for default Files
 
 ./Scripts/CreateDefaultFiles.sh
 
-#Script for Install Enviroment
+#Script for Install Enviroment CMD
 
-./Scripts/EnviromentBasic.sh
+./Scripts/EnviromentCMD.sh
+
+#Script for Install Enviroment GUI
+
+./Scripts/EnviromentGUI.sh
 
 #Script for Install Drivers
 
@@ -35,7 +46,7 @@ yay -Syuu --noconfirm
 
 # Generate files config
 
-./Scripts/GenrateFileconfig.sh
+./Scripts/GenerateFileconfig.sh
 
 # Script for backup
 
@@ -43,4 +54,8 @@ yay -Syuu --noconfirm
 
 #Config basic of System Enviroment basic
 
-./Scripts/ConfigEnviromentbasic.sh
+./Scripts/ConfigEnviromentCMD.sh
+
+#Config basic of System Enviroment basic
+
+./Scripts/ConfigEnviromentGUI.sh
